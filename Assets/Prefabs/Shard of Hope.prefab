@@ -48,9 +48,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2960407510875224035, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960407510875224035, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.92549026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960407510875224035, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.4156863
+      objectReference: {fileID: 0}
     - target: {fileID: 3809596711333141406, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Name
       value: Shard of Hope
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134021730600403818, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.899371
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134021730600403818, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.89723366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134021730600403818, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.6193781
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: m_Color.g
+      value: 0.92549026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4156863
       objectReference: {fileID: 0}
     - target: {fileID: 6232390860717115853, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.b
