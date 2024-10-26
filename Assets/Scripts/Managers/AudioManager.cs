@@ -4,8 +4,9 @@ using System;
 using BaseUtilities;
 
 [RequireComponent(typeof(Sound))]
-public class AudioManager : SingletonBase<AudioManager>
+public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
     [SerializeField] AudioMixer audioMixer;
 
     public Sound[] sounds;
@@ -15,6 +16,15 @@ public class AudioManager : SingletonBase<AudioManager>
     public const string sfxKEY = "sfxVolume";
     void Awake()
     {
+        #region Singleton
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+            Destroy(this);
+        #endregion
         foreach (Sound sound in sounds)
         {
             sound.source = gameObject.AddComponent<AudioSource>();
