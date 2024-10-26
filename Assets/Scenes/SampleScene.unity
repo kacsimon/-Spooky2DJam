@@ -9993,7 +9993,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
-  sounds: []
+  sounds:
+  - name: ThemeStart
+    clip: {fileID: 8300000, guid: 306c74f83ee16e04987610c9914cf1dc, type: 3}
+    mixerGroup: {fileID: -181475327768352201, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 198366e84a02a6c44b1503102d740b13, type: 3}
+    mixerGroup: {fileID: -181475327768352201, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ThemeEnd
+    clip: {fileID: 8300000, guid: 7b4b493b2b77c4c41bf1fa5112cfd110, type: 3}
+    mixerGroup: {fileID: -181475327768352201, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Atmosphere 1
+    clip: {fileID: 8300000, guid: 36a000d840b96434e8ca9a76ccce6e9c, type: 3}
+    mixerGroup: {fileID: -3554835714222920288, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Atmosphere 2
+    clip: {fileID: 8300000, guid: 2f968545a2e2a7a42a58d1174fae4b59, type: 3}
+    mixerGroup: {fileID: -3554835714222920288, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Atmosphere 3
+    clip: {fileID: 8300000, guid: f06e30951cb522543a736d6ebb2891b5, type: 3}
+    mixerGroup: {fileID: -3554835714222920288, guid: 6d3138ba65cd1574cab9347970572a7a, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1273059748
 Transform:
   m_ObjectHideFlags: 0
@@ -10554,7 +10596,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 17
-      m_TileSpriteIndex: 11
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10705,10 +10747,10 @@ Tilemap:
     m_Data: {fileID: -247716167, guid: 2935485ab86ed274796cd35da4c9be3d, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -563324654, guid: 2935485ab86ed274796cd35da4c9be3d, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -563324654, guid: 2935485ab86ed274796cd35da4c9be3d, type: 3}
   - m_RefCount: 17
     m_Data: {fileID: 1780199743, guid: 2935485ab86ed274796cd35da4c9be3d, type: 3}
   - m_RefCount: 2

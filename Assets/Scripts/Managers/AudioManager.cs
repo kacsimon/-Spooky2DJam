@@ -28,10 +28,16 @@ public class AudioManager : SingletonBase<AudioManager>
     void Start()
     {
         LoadVolume();
+        Play("ThemeStart");
+        PlayDelayed("Theme", 32f);
     }
     public void Play(string name)
     {
         FindSong(name).source.Play();
+    }
+    public void PlayDelayed(string name, float delay)
+    {
+        FindSong(name).source.PlayDelayed(delay);
     }
     public void Stop(string name)
     {
