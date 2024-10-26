@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        //vertical = Input.GetAxis("Vertical");
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, .2f, groundLayer);
         if (Input.GetKeyDown(KeyCode.Space) && grounded)

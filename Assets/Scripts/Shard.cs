@@ -9,6 +9,7 @@ public class Shard : MonoBehaviour
             GameManager.Instance.GetShard();
             Hide();
             //TO DO: Play audio or show text
+            Destroy(gameObject);
         }
     }
     void Show()
