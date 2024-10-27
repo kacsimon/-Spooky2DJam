@@ -4,6 +4,8 @@ using BaseUtilities;
 public class GameManager : SingletonBase<GameManager>
 {
     [SerializeField] int shardToHave;
+    [SerializeField] GameObject endCanvas;
+    [SerializeField] GameObject[] endings;
 
     int shardCollected;
     int maxShard = 7;
@@ -15,9 +17,11 @@ public class GameManager : SingletonBase<GameManager>
         shardCollected++;
         //sanityLevel--;
     }
-    public void GetEnd()
+    public void GetEnd(bool bad)
     {
-        if (shardCollected < shardToHave) BadEnding();
+        endCanvas.SetActive(true);
+        if (bad) BadEnding();
+        else if (shardCollected < shardToHave) BadEnding();
         else if (shardCollected == maxShard && swingKey) TrueEnding();
         else GoodEnding();
     }
@@ -54,16 +58,19 @@ public class GameManager : SingletonBase<GameManager>
                 return swingKey;
         }
     }
-    public void BadEnding()
+    void BadEnding()
     {
         Debug.Log("You got the bad ending.");
+        endings[0].SetActive(true);
     }
     void GoodEnding()
     {
         Debug.Log("You got the good ending.");
+        endings[1].SetActive(true);
     }
     void TrueEnding()
     {
         Debug.Log("You got the true ending.");
+        endings[2].SetActive(true);
     }
 }

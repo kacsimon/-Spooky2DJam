@@ -6,8 +6,8 @@ public class END : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (gameObject.CompareTag("Finish")) GameManager.Instance.GetEnd();
-            else GameManager.Instance.BadEnding();            
+            if (gameObject.CompareTag("Finish")) GameManager.Instance.GetEnd(false);
+            else GameManager.Instance.GetEnd(true);
         }
     }
 }
