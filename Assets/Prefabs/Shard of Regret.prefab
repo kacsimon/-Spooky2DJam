@@ -82,15 +82,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.b
-      value: 0.25490198
+      value: 0.119462445
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.g
-      value: 0.25490198
+      value: 0.1509434
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.r
-      value: 0.21960786
+      value: 0.035599835
       objectReference: {fileID: 0}
     - target: {fileID: 6232390860717115853, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.b
@@ -107,6 +107,18 @@ PrefabInstance:
     - target: {fileID: 6850552395121537616, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: soundName
       value: ShardOfRegret
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.21960786
       objectReference: {fileID: 0}
     - target: {fileID: 8180603163279734132, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b

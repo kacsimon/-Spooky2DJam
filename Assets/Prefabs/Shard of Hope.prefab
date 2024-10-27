@@ -104,6 +104,18 @@ PrefabInstance:
       propertyPath: soundName
       value: ShardOfHope
       objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.92549026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.4156863
+      objectReference: {fileID: 0}
     - target: {fileID: 8180603163279734132, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.9294118

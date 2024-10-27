@@ -102,15 +102,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.b
-      value: 0.69411767
+      value: 0.8184727
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.g
-      value: 0.5019608
+      value: 0.134152
       objectReference: {fileID: 0}
     - target: {fileID: 4618163521907744433, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.r
-      value: 0.53333336
+      value: 0.836478
       objectReference: {fileID: 0}
     - target: {fileID: 6232390860717115853, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Color.b
@@ -127,6 +127,18 @@ PrefabInstance:
     - target: {fileID: 6850552395121537616, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: soundName
       value: ShardOfLoneliness
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.69411767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996414741073788547, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.53333336
       objectReference: {fileID: 0}
     - target: {fileID: 8163401941679152885, guid: 64d875635d391434f919ef4ec9a9d665, type: 3}
       propertyPath: m_Materials.Array.data[0]

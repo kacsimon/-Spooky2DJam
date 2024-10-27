@@ -5000,6 +5000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d459f3256c9a3ea4690df80ae55e5c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameObjectToShow: {fileID: 0}
 --- !u!82 &8783413345697433964
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5021,7 +5022,7 @@ AudioSource:
   Priority: 50
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5117,7 +5118,7 @@ AudioSource:
   Priority: 50
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -19728,7 +19729,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7b96dcd2b13f65f469865514b3d8e809, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
